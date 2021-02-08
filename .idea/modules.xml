@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-api/core-api.iml" filepath="$PROJECT_DIR$/core-api/core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-api-impl/core-api-impl.iml" filepath="$PROJECT_DIR$/core-api-impl/core-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dto/dto.iml" filepath="$PROJECT_DIR$/dto/dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/using-api-public-authorities.iml" filepath="$PROJECT_DIR$/.idea/using-api-public-authorities.iml" />
-      <module fileurl="file://$PROJECT_DIR$/using-api-service-core-api/using-api-service-core-api.iml" filepath="$PROJECT_DIR$/using-api-service-core-api/using-api-service-core-api.iml" />
     </modules>
   </component>
 </project>

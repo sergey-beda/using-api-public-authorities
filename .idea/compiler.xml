@@ -6,13 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="using-api-service-core-api" />
-        <module name="using-api-public-authorities" />
+        <module name="app" />
+        <module name="core-api-impl" />
+        <module name="dto" />
+        <module name="core-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="using-api-public-authorities" target="1.5" />
+      <module name="app" target="1.8" />
+      <module name="core-api" target="1.8" />
+      <module name="core-api-impl" target="1.8" />
+      <module name="dto" target="1.8" />
+      <module name="using-api-public-authorities" target="1.8" />
       <module name="using-api-service-core-api" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app" options="-parameters" />
+      <module name="core-api" options="-parameters" />
+      <module name="core-api-impl" options="-parameters" />
+      <module name="dto" options="-parameters" />
+      <module name="using-api-public-authorities" options="-parameters" />
+    </option>
   </component>
 </project>
