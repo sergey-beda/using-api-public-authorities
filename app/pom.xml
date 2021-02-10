@@ -11,5 +11,36 @@
 
     <artifactId>app</artifactId>
 
+    <dependencies>
+        <dependency>
+            <artifactId>core-api</artifactId>
+            <groupId>ru</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <artifactId>core-api-impl</artifactId>
+            <groupId>ru</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <artifactId>dto</artifactId>
+            <groupId>ru</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.4.2</version>
+                <configuration>
+                    <skip>
+                        false
+                    </skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
