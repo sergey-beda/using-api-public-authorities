@@ -20,5 +20,5 @@ public class BaseCriteriaDTO extends BaseDTO {
 
     @Schema(description = "id")
     @JsonProperty(required = true)
-    Long id;
+    String id;
 }

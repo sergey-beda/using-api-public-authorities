@@ -35,8 +35,10 @@ public class MyControllerImpl implements MyController {
     )
     @GetMapping(
             value = MY_ENDPOINT,
-            produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<MyDTO> getMyDto(@RequestBody MyCriteriaDTO criteriaDTO) {
-        return ResponseEntity.ok(myIntegrationService.getMyDto(criteriaDTO));
+            produces = MediaType.APPLICATION_JSON_VALUE,
+            consumes = MediaType.APPLICATION_JSON_VALUE
+            )
+    public ResponseEntity<MyDTO> getMyDto(MyCriteriaDTO criteriaDTO) {
+        return ResponseEntity.ok(myIntegrationService.getMyDto(MyCriteriaDTO.builder().build()));
     }
 }

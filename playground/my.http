@@ -1,0 +1,12 @@
+GET http://localhost:8080/service/my
+Accept: */*
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic YXBwX3VzZXI6dGVzdDEyMw==
+
+{
+  "id": "100",
+  "comment": "хаха"
+}
+
+###

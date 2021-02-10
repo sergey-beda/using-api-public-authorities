@@ -14,7 +14,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @PropertySource("classpath:application-local.properties")
 public class SecurityConfigLocal extends BaseSecurityConfig {
 
-    @Value("${spring.security.user.name")
+    @Value("${spring.security.user.name}")
     String login;
 
     @Value("${spring.security.user.password}")

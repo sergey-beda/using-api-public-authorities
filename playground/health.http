@@ -1,0 +1,10 @@
+GET http://localhost:8080/service/health
+Accept: */*
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic YXBwX3VzZXI6dGVzdDEyMw==
+
+<> 2021-02-11T003819.200.json
+<> 2021-02-11T003105.401.html
+
+###
