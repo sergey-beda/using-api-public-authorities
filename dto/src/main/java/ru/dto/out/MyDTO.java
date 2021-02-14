@@ -18,5 +18,5 @@ public class MyDTO extends BaseDTO implements Serializable {
     private static final long serialVersionUID = -8786597329833951832L;
 
     @Schema(description = "id")
-    Long id;
+    String id;
 }
