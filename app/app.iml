@@ -19,6 +19,8 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="app" />
+          <factory-entry name="entityManagerFactory" value="e061027d-01d5-4e64-a73f-902c37629a60" />
+          <factory-entry name="postgresEntityManagerFactory" value="e061027d-01d5-4e64-a73f-902c37629a60" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
@@ -139,8 +141,7 @@
     <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.3" level="project" />
-    <orderEntry type="library" name="Maven: org.postgresql:postgresql:42.2.18" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.postgresql:postgresql:9.4-1205-jdbc42" level="project" />
     <orderEntry type="library" name="Maven: org.springdoc:springdoc-openapi-ui:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.springdoc:springdoc-openapi-webmvc-core:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.springdoc:springdoc-openapi-common:1.5.3" level="project" />
