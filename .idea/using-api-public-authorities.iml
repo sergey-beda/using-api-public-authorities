@@ -41,7 +41,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons-core:1.4.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.lucee:postgresql:8.3-606.jdbc4" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.13.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-launcher:1.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />

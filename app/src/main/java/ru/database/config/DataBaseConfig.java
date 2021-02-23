@@ -48,6 +48,4 @@ public class DataBaseConfig {
         return new JpaTransactionManager(entityManagerFactory);
     }
 
-
-
 }

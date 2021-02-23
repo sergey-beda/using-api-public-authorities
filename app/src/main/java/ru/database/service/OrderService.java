@@ -15,7 +15,7 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
 
-    public Optional<Order> findOrderById(Long id) {
-        return orderRepository.findById(id);
+    public Long findAll() {
+        return Long.parseLong(String.valueOf(orderRepository.findAll().size()));
     }
 }
