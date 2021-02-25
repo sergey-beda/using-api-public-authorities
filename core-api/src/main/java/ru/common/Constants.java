@@ -23,4 +23,19 @@ public class Constants {
      */
     public static final String MY_ENDPOINT = "/my";
 
+    /**
+     * Расположение конфигурации для локального профиля Spring
+     */
+    public static final String CONFIG_LOCATION_LOCAL = "classpath:application-local.properties";
+
+    /**
+     * локальный профиль
+     */
+    public static final String PROFILE_LOCAL = "local";
+
+    /**
+     * parent url
+     */
+    public static final String PARENT_URL = "/using-api-publicauthorities";
+
 }

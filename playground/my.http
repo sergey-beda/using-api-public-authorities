@@ -1,4 +1,4 @@
-GET http://localhost:8081/service/my
+GET http://localhost:8081/using-api-publicauthorities/api/my
 Accept: */*
 Content-Type: application/json
 Cache-Control: no-cache
