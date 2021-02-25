@@ -19,8 +19,8 @@ public class BaseSecurityConfig extends WebSecurityConfigurerAdapter {
             http
                     .csrf().disable()
                     .authorizeRequests()
-                    .antMatchers("/**").hasRole("USER")
-                    .antMatchers("/info/**").permitAll()
+                    .antMatchers("/api/**").hasRole("USER")
+                    .antMatchers("/**").permitAll()
                     .and().httpBasic();
         } catch (Exception e) {
             log.error("Ошибка конфигурации HttpSecurity");

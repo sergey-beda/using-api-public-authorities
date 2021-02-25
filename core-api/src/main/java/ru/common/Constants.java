@@ -10,7 +10,7 @@ public class Constants {
     /**
      * Endpoint base url
      */
-    public static final String CONTROLLER_TAG = "/service";
+    public static final String CONTROLLER_TAG = "/api";
 
 
     /**
