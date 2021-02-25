@@ -19,8 +19,8 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="app" />
-          <factory-entry name="entityManagerFactory" value="e061027d-01d5-4e64-a73f-902c37629a60" />
-          <factory-entry name="postgresEntityManagerFactory" value="e061027d-01d5-4e64-a73f-902c37629a60" />
+          <factory-entry name="entityManagerFactory" />
+          <factory-entry name="postgresEntityManagerFactory" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

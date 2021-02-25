@@ -13,7 +13,7 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
 
-    public Long findAll() {
+    public Long count() {
         return Long.parseLong(String.valueOf(orderRepository.count()));
     }
 }

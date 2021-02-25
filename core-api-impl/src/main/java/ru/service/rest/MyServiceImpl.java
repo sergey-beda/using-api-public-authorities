@@ -14,6 +14,5 @@ public class MyServiceImpl implements MyService {
 
     @Override
     public MyDTO getMyDto(MyCriteriaDTO criteriaDTO) {
-        MyDTO myDTO = new MyDTO(orderService.findAll().toString());
-        return myDTO;}
+        return MyDTO.builder().id(orderService.count().toString()).build();}
 }
