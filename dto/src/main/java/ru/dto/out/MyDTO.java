@@ -13,6 +13,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Builder
 @Accessors(chain = true)
+@Getter
+@Setter
 @Schema(title = "выходные параметры")
 public class MyDTO extends BaseDTO implements Serializable {
     private static final long serialVersionUID = -8786597329833951832L;

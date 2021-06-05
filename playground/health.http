@@ -1,4 +1,4 @@
-GET http://localhost:8080/service/health
+GET http://localhost:8081/using-api-publicauthorities/api/health
 Accept: */*
 Content-Type: application/json
 Cache-Control: no-cache
